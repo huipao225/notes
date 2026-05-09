@@ -6,17 +6,18 @@
     <component
       :is="'script'"
       src="https://giscus.app/client.js"
-      :data-repo="giscusRepo"
-      data-repo-id="REPO_ID"
+      :data-repo="huipao225/notes"
+      data-repo-id="R_kgDOSYCqNg"
       data-category="Announcements"
-      data-category-id="CATEGORY_ID"
+      data-category-id="DIC_kwDOSYCqNs4C8o3u"
       data-mapping="pathname"
       data-strict="0"
       data-reactions-enabled="1"
-      data-emit-metadata="0"
-      data-input-position="bottom"
+      data-emit-metadata="1"
+      data-input-position="top"
       :data-theme="isDark ? 'dark' : 'light'"
       data-lang="zh-CN"
+      data-loading="lazy"
       crossorigin="anonymous"
       async
     ></component>
@@ -34,7 +35,7 @@ import { computed } from 'vue'
 const { isDark } = useData()
 
 // 修改为你的 GitHub 仓库信息（部署后需更新）
-const configured = false
+const configured = true
 const giscusRepo = computed(() => 'your-username/notes')
 </script>
 
