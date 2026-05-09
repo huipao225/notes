@@ -29,7 +29,13 @@ const categories = [
   //   ]
   // }
 ]
+//## 新增帖子
 
+//在 `docs/` 下新建分类目录（如 `docs/python/`），放入 Markdown 文件，然后在 `docs/.vitepress/config.mjs` 的侧边栏配置中注册即可。或使用快捷命令：
+
+//```bash
+//npm run new:post -- --category 分类名 --title 帖子标题
+//```
 // 根据 categories 自动生成侧边栏和导航栏
 function buildSidebar() {
   const sidebar = {}
