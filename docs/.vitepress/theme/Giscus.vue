@@ -6,7 +6,7 @@
     <component
       :is="'script'"
       src="https://giscus.app/client.js"
-      :data-repo="huipao225/notes"
+      data-repo="huipao225/notes"
       data-repo-id="R_kgDOSYCqNg"
       data-category="Announcements"
       data-category-id="DIC_kwDOSYCqNs4C8o3u"
